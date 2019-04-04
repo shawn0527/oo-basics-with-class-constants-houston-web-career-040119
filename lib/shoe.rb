@@ -1,4 +1,4 @@
-require 'pry'
+
 class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
@@ -17,9 +17,6 @@ class Shoe
     BRANDS.push(brand).uniq!
 
   end
-
-  binding.pry
-  "string"
 
 
   def cobble
